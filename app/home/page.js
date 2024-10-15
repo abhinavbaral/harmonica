@@ -15,7 +15,7 @@ const Page = () => {
       <button 
         onClick={uname} 
         className="mt-4 p-2 bg-teal-500 text-white rounded">
-        log in
+        Log in
       </button>
     </>
   );
