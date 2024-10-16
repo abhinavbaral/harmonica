@@ -1,23 +1,23 @@
-"use client";
-import React, { useState } from 'react';
 
+"use client"
+
+import React, { useState } from 'react';
+import Pbody from '@/Components/Pbody';
 
 const Page = () => {
-  const [name, setName] = useState("User");
-
-  const uname= () => {
-    setName("getdatafromdb");
-  };
+  const [userName,setUserName] = useState("Abhinav")
+  console.log(userName)
 
   return (
-    <>
-      <h1 className="font-bold text-black">{name}.</h1>
-      <button 
-        onClick={uname} 
-        className="mt-4 p-2 bg-teal-500 text-white rounded">
-        Log in
+    <div >
+    
+      <button onClick={() => {
+        setUserName("Animesh")
+      }}>
+       <h1 className="font-bold text-black">{userName}.</h1>
       </button>
-    </>
+      <Pbody />
+    </div>
   );
 };
 
