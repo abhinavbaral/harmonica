@@ -1,24 +1,13 @@
+import MusicPlayerUi from '@/Components/MusicPlayerUi'
+import React from 'react'
 
-"use client"
 
-import React, { useState } from 'react';
-import Pbody from '@/Components/Pbody';
-
-const Page = () => {
-  const [userName,setUserName] = useState("Abhinav")
-  console.log(userName)
-
+const page = () => {
   return (
-    <div >
-    
-      <button onClick={() => {
-        setUserName("Animesh")
-      }}>
-       <h1 className="font-bold text-black">{userName}.</h1>
-      </button>
-      <Pbody />
+    <div>
+      <MusicPlayerUi /> 
     </div>
-  );
-};
+  )
+}
 
-export default Page;
+export default page

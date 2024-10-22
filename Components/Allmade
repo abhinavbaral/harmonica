@@ -7,7 +7,7 @@
      <div  className="border p-2 mb-2 w-full h-full" >
         <div className='flex items-center gap-3 '>
         <div className='border  min-w-[300px] px-3 py-2 rounded-md'>
-            <div className='text-teal-500 font-semibold' >  Playliist
+            <div className='text-teal-500 font-semibold' >  Playli]ist
     <i class="ri-add-circle-line" className='text-teal-500 text-4xl'></i>
              </div>
              <br/>

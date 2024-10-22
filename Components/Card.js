@@ -1,8 +1,4 @@
 import React from 'react'
-
-const Card = () => {
-  return (
-  
     
 const Card = ({ title, desc }) => {
     return (
